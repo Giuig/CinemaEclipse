@@ -8,11 +8,11 @@ Questo e' il progetto di una webapp per un cinema sviluppato alla fine del corso
 
 A cura di:
 
-Giulio Gambino
-Giorgia Mancinelli
-Edoardo Martina
-Martina Orrico
-Andrea Pasquini
-Tommaso Rocchi
-Chloe Iranga
+Giulio Gambino,
+Giorgia Mancinelli,
+Edoardo Martina,
+Martina Orrico,
+Andrea Pasquini,
+Tommaso Rocchi,
+Chloe Iranga,
 Luca Zillino
