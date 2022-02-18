@@ -1,0 +1,30 @@
+</head>
+
+<body  class="d-flex flex-column min-vh-100" id="body">
+
+<%@page import = "com.cinemaeclipse.model.Utente" %>
+<% Utente utente=(Utente)request.getSession().getAttribute("utenteLoggato");%>
+
+
+    <nav class="navbar py-4" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="container">
+            <a href="HomeServlet">
+                <img width="75px" src="res/logoScuro.png" alt="Logo">
+            </a>
+            <div class="text-right">
+            
+            <%if(utente==null || utente.getRuolo().getDescrizione().equals("bannato")){%>
+                <form action= "LoginServlet" method = "get">
+               		<button class="btn btn-lg" type="submit"> <img class="icon" src="res/user.png"/></button>
+                </form>
+                <!-- <img class="icon px-2 hand" src="res/search.png" alt=""> -->
+                <%} else {%>
+                <form action= "UtenteServlet" method = "post">
+                	<input type="hidden" name="id" value="<%=utente.getIdUtente() %>">
+               		<button class="btn btn-lg" type="submit"><img class="icon" src="res/user.png"/></button>
+                </form>
+                <%} %>
+            </div>
+        </div>
+    </nav>
+    <div class="pb-4"></div>
