@@ -1,12 +1,12 @@
 # Cinema Eclipse
-## Webapp di un cinema
+## Cinema webapp
 
-La repository si trova qui
+You can find the repository here
 https://github.com/Chocobooru/CinemaEclipse.git
 
-Questo e' il progetto di una webapp per un cinema sviluppato alla fine del corso Generation con Elis
+This is the project of a cinema webapp developed at the end of the Generation Elis course.
 
-A cura di:
+By::
 
 Giulio Gambino,
 Giorgia Mancinelli,
