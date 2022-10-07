@@ -2,7 +2,7 @@
 ## Cinema webapp
 
 You can find the repository here
-https://github.com/Chocobooru/CinemaEclipse.git
+https://github.com/Giuig/CinemaEclipse.git
 
 This is the project of a cinema webapp developed at the end of the Generation Elis course.
 
